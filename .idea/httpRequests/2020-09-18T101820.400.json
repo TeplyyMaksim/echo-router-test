@@ -1,0 +1,1 @@
+{"Message":"code=400, message=Unmarshal type error: expected=int, got=string, field=id, offset=14, internal=json: cannot unmarshal string into Go struct field User.id of type int","Code":400}

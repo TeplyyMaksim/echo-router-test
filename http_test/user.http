@@ -1,0 +1,126 @@
+# Create user
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+###
+
+# Get user
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:1323/users/20202
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:1323/users/35
+Content-Type: application/json
+
+{}
+
+###
+
+# Update user
+PUT http://localhost:1323/users/asd
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+###
+
+PUT http://localhost:1323/users/999999
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "firstName": "Assd"
+}
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "name": "What is love?"
+}
+
+###
+
+# Delete user
+DELETE http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+###
+
+DELETE http://localhost:1323/users/99999
+Content-Type: application/json
+
+{}
+
+###
+
+DELETE http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+###

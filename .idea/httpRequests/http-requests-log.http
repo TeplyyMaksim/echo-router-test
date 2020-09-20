@@ -1,0 +1,525 @@
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T085806.200.json
+
+###
+
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T085327.404.json
+
+###
+
+DELETE http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T085318.200.json
+
+###
+
+DELETE http://localhost:1323/users/99999
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T085316.404.json
+
+###
+
+DELETE http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T085312.400.json
+
+###
+
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T083018.200.json
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "name": "What is love?"
+}
+
+<> 2020-09-20T082900.200.json
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+<> 2020-09-20T082856.200.json
+
+###
+
+PUT http://localhost:1323/users/10
+Content-Type: application/json
+
+{
+  "firstName": "Assd"
+}
+
+<> 2020-09-20T082845.200.json
+
+###
+
+PUT http://localhost:1323/users/999999
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+<> 2020-09-20T082840.404.json
+
+###
+
+PUT http://localhost:1323/users/asd
+Content-Type: application/json
+
+{
+  "name": ""
+}
+
+<> 2020-09-20T082832.400.json
+
+###
+
+GET http://localhost:1323/users/35
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080621.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+<> 2020-09-20T080618.200.json
+
+###
+
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080611.200.json
+
+###
+
+GET http://localhost:1323/users/35
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080607.404.json
+
+###
+
+GET http://localhost:1323/users/20202
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080602.404.json
+
+###
+
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080555.400.json
+
+###
+
+GET http://localhost:1323/users/10
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:1323/users/20202
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080417.404.json
+
+###
+
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080413.404.json
+
+###
+
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080259.404.json
+
+###
+
+GET http://localhost:1323/users/asd
+Content-Type: application/json
+
+{}
+
+<> 2020-09-20T080251.404.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+<> 2020-09-20T080241.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+<> 2020-09-20T080237.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+<> 2020-09-20T075650.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-20T075458.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T102009.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T101915.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T101915-1.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101915.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 35,
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T101845.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T101845-1.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101845.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": "35",
+  "name": "MmMaksym"
+}
+
+<> 2020-09-18T101820.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101816.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101743.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101627.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101623.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101620.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T101547.400.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T095253.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094554.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094551.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094328.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094227.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094226.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Maksym"
+}
+
+<> 2020-09-18T094003.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Maksym"
+}
+
+<> 2020-09-18T093934.200.json
+
+###
+
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Maksym"
+}
+
+<> 2020-09-18T093918.200.json
+
+###
+
